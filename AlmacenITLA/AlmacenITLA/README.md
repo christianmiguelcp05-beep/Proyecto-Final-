@@ -1,4 +1,5 @@
-# 📦 AlmacénITLA — Sistema de Gestión de Almacén
+[README.md](https://github.com/user-attachments/files/26733131/README.md)
+# AlmacenITLA — Sistema de Gestión de Almacén
 
 ## Estructura del Proyecto
 
@@ -22,7 +23,7 @@ AlmacenITLA/
     │   ├── GestionProductosVista.java  ← Listado de productos
     │   └── FormularioProductoVista.java← Crear/editar/eliminar producto
     └── util/
-        ├── ConexionDB.java             ← PATRÓN SINGLETON — Conexión a BD
+        ├── ConexionDB.java             ← PATRON SINGLETON — Conexión a BD
         └── Estilos.java               ← Utilidades de UI (colores, fuentes, botones)
 ```
 
@@ -47,7 +48,7 @@ Separa la lógica de acceso a datos de la lógica de negocio. La clase abstracta
 
 1. Crea un nuevo **Java Project** y copia la carpeta `src/`
 2. Descarga el driver MySQL: `mysql-connector-j-8.x.x.jar`
-3. Agrégalo al **Build Path**: clic derecho en proyecto → Build Path → Add External JARs
+3. Agregalo al **Build Path**: clic derecho en proyecto → Build Path → Add External JARs
 4. Ejecuta `Main.java`
 
 ## Base de Datos Remota
